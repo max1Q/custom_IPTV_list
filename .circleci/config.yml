@@ -18,7 +18,7 @@ jobs:
         command: git clone $repo && cd $(echo $repo |awk -F '/' '{ print $NF }'| cut -f 1 -d '.')
         name: clone repository
     - run:
-        command: for pls in $(ls -1 ./*.m[3,8]u); do echo $pls;  iptv-checker $pls; done
+        command: for pls in $(ls -1 $(echo $repo |awk -F '/' '{ print $NF }'| cut -f 1 -d '.')/*.m[3,8]u); do echo $pls;  iptv-checker $pls; done
         name: playlist check
 
 workflows:
