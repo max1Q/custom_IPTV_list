@@ -15,7 +15,7 @@ jobs:
         command: apt-get install -y ffmpeg
         name: install prereqs
     - run:
-        command: git clone $CIRCLE_REPOSITORY_URL && cd $CIRCLE_PROJECT_REPONAME
+        command: git clone $https_repo_link && cd $CIRCLE_PROJECT_REPONAME
         name: clone repository
     - run:
         command: for pls in $(ls -1 $CIRCLE_PROJECT_REPONAME | cut -f 1 -d '.')/*.m[3,8]u); do echo $pls;  iptv-checker -p $(lscpu | grep '^CPU(s):' | cut -f 2 -d ':') $pls; done
