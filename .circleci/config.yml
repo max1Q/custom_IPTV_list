@@ -18,7 +18,8 @@ jobs:
         command: git clone $CIRCLE_REPOSITORY_URL && cd $CIRCLE_PROJECT_REPONAME
         name: clone repository
     - run:
-        command: for pls in $(ls -1 $CIRCLE_PROJECT_REPONAME | cut -f 1 -d '.')/*.m[3,8]u); do echo $pls;  iptv-checker $pls; done
+        command: for pls in $(ls -1 $CIRCLE_PROJECT_REPONAME | cut -f 1 -d '.')/*.m[3,8]u); do echo $pls;  iptv-checker -p $(lscpu | grep '^CPU(s):' | cut -f 2 -d ':') $pls; done
+        no_output_timeout: 45m
         name: playlist check
 
 workflows:
