@@ -14,6 +14,12 @@ jobs:
     - run:
         command: apt-get install -y ffmpeg
         name: install prereqs
+    - run:
+        command: git clone $repo && cd $(echo $repo |awk -F '/' '{ print $NF }'| cut -f 1 -d '.')
+        name: clone repository
+    - run:
+        command: for pls in $(ls -1 ./*.m[3,8]u); do echo $pls;  iptv-checker $pls; done
+        name: playlist check
 
 workflows:
   check_list:
