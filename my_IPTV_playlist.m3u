@@ -20,7 +20,7 @@ http://178.124.183.5/hls/CH_BELARUS4BR_HLS/variant.m3u8?version=2
 #EXTINF:-1  tvg-logo="http://p.vladna.club/logo/belarus5.png" group-title="Общие",Беларусь 5
 http://178.124.183.5/hls/JRKVSUPCP8_HLS/variant.m3u8?version=2
 #EXTINF:-1 tvg-logo="https://toplogos.ru/images/thumbs/preview-logo-belarus-24.png" group-title="Общие",Беларусь 24
-http://vs-msk-02.tv.ti.ru:80/dtv/id600_NBN_SG--belarus24/03/plst.m3u8
+http://serv30.vintera.tv:8081/belarus24/belarus24/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://p.vladna.club/logo/ctvby.png" group-title="Общие" ,СТВ
 http://212.98.171.116/HLS/ctvby/playlist.m3u8?checkedby:iptvcat.com
 #EXTINF:-1,ТВ 3
@@ -28,23 +28,23 @@ http://178.124.183.150/hls/KLQQ9ECGSQ_HLS/bw1200000/playlist.m3u8
 #EXTINF:-1,Бел Бизес Ченел
 http://178.124.183.13/hls/MCEQ4XBTHP/bw1200000/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://p.vladna.club/logo/vtv.png",ВТВ
-http://178.124.183.150/hls/CRCQFRNUFJ_HLS/bw1200000/playlist.m3u8
+http://178.124.183.5/hls/CRCQFRNUFJ_HLS/variant.m3u8?version=2
 #EXTINF:-1 tvg-logo="http://p.vladna.club/logo/tntint.png" group-title="Развлекательные",ТНТ international
 http://178.124.183.150/hls/MVNP5DA4U9_HLS/bw1200000/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://p.vladna.club/logo/euronews.png",Euronews
-http://178.124.183.13/hls/C5P6YOXJZT/bw1200000/playlist.m3u8
+http://178.124.183.5/hls/C5P6YOXJZT_HLS/variant.m3u8?version=2
 #EXTINF:0 tvg-logo="http://p.vladna.club/logo/viasatHistory.png",Viasat History
-http://178.124.183.5/hls/CH_VIASATHISTORY/variant.m3u8
+https://s1.idata.uz/stch_temp20/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo=tvg-logo="http://p.vladna.club/logo/history.png",History
 http://178.124.183.150/hls/CH_HISTORY_HLS/bw1200000/playlist.m3u8
 #EXTINF:0 tvg-logo="http://p.vladna.club/logo/viasatNature.png",Viasat Nature
 http://178.124.183.5/hls/BN3FTDY3T8_HLS/variant.m3u8?version=2
 #EXTINF:-1 tvg-logo="http://p.vladna.club/logo/viasatExplore.png",Viasat Explore
-http://178.124.183.13/hls/JQQ83OBHTQ/bw1200000/playlist.m3u8
+http://178.124.183.5/hls/JQQ83OBHTQ_HLS/variant.m3u8?version=2
 #EXTINF:-1,Nat Geo Wild
-http://178.124.183.13/hls/ESCMSBZJ8X/bw1200000/playlist.m3u8
+http://178.124.183.5/hls/ESCMSBZJ8X_HLS/variant.m3u8?version=2
 #EXTINF:-1 tvg-logo="https://toplogos.ru/images/thumbs/preview-logo-national-geographic.jpg",National Geographic
-http://178.124.183.13/hls/CH_NATGEO/bw1200000/playlist.m3u8
+http://178.124.183.5/hls/CH_NATGEO_HLS/variant.m3u8?version=2
 #EXTINF:0 tvg-logo="http://p.vladna.club/logo/galaxy.png",GALAXY
 http://178.124.183.5/hls/CH_GALAXY_HLS/variant.m3u8?version=2
 #EXTINF:0 tvg-logo="http://p.vladna.club/logo/russiak.png",Россия К
@@ -77,22 +77,20 @@ http://178.124.183.5/hls/9F67L3DGIF_HLS/variant.m3u8?version=2
 http://178.124.183.5/hls/FBYQ8KG5HM_HLS/variant.m3u8?version=2
 #EXTINF:0 tvg-logo="http://p.vladna.club/logo/2x2.png"group-title="Детские" ,2x2
 http://178.124.183.5/hls/EU9VTLDQCN_HLS/variant.m3u8?version=2
-#EXTINF:-1 tvg-logo="http://p.vladna.club/logo/gulli.png",Gulli
-http://178.124.183.13/hls/7FFGONY2N8/bw1200000/playlist.m3u8
+#EXTINF:0 tvg-logo="http://p.vladna.club/logo/gulli.png",Gulli Girl
+http://178.124.183.5/hls/7FFGONY2N8_HLS/variant.m3u8?version=2
 #EXTINF:-1,ИНТЕР
 http://109.68.41.148:1935/live/inter_2/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://toplogos.ru/images/thumbs/preview-logo-1plus1.png",1+1
-http://79.142.197.7:8888/1plus1/mono.m3u8
+http://spacetv.in/stream/DIPK8H19CP8/172.m3u8
 #EXTINF:-1 ,Прямый
 http://95.67.21.100/hls/prm_ua_hi/index.m3u8
 #EXTINF:-1 tvg-logo="http://p.vladna.club/logo/souz.png",Союз
-http://178.124.183.13/hls/CH_SOYUZ/bw1200000/playlist.m3u8
+http://noname.do.am/z/low/souz.m3u8
 #EXTINF:-1 tvg-logo="http://p.vladna.club/logo/okhotaRybalka.png",Охота и Рыбалка
-http://178.124.183.13/hls/VF5ELDF8AL/bw1200000/playlist.m3u8
+http://51.68.141.106:8081/tv/ohota-i-ryibalka/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://p.vladna.club/logo/oruzhie.png",Оружие
-http://178.124.183.13/hls/EWEXU8FWAZ/bw1200000/playlist.m3u8
-#EXTINF:-1 tvg-logo="http://p.vladna.club/logo/sarafan.png",Сарафан
-http://178.124.183.13/hls/Y9GP8UFTZO/bw1200000/playlist.m3u8
+http://178.124.183.5/hls/EWEXU8FWAZ_HLS/variant.m3u8?version=2
 #EXTINF:-1 tvg-logo="http://p.vladna.club/logo/rtrby.png" ,РТР-Беларусь
 http://178.124.183.150/hls/7MQSYYGHFE_HLS/bw1200000/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://p.vladna.club/logo/russiak.png",Россия К
@@ -129,8 +127,6 @@ http://178.124.183.150/hls/NCLEFHVZGR_HLS/bw1200000/playlist.m3u8
 http://178.124.183.13/hls/CH_CTCKIDS/bw1200000/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://p.vladna.club/logo/sarafan.png",Сарафан
 http://178.124.183.13/hls/Y9GP8UFTZO/bw1200000/playlist.m3u8
-#EXTINF:-1 tvg-logo="http://p.vladna.club/logo/vtv.png",ВТВ
-http://178.124.183.150/hls/CRCQFRNUFJ_HLS/bw1200000/playlist.m3u8
 #EXTINF:-1,Еврокино
 http://178.124.183.150/hls/JEDUS3FS7V_HLS/bw1200000/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://p.vladna.club/logo/viasatHistory.png",Viasat History
@@ -149,14 +145,12 @@ http://streaming.astrakhan.ru/astrakhanrusporthd/tracks-v5a1/index.m3u8
 http://195.158.29.129/live_360/live.stream+_360p.m3u8
 #EXTINF:-1 group-title="Спорт",Setanta Sports 2
 https://95-213-224-186.livesports24.online/setantaplusru.m3u8
-#EXTINF:-1 group-title="Спорт",M-1 Global
-http://vs-msk-02.tv.ti.ru:80/dtv/id1068_NBN_SG--M1global/03/plst.m3u8
 #EXTINF:-1 group-title="Спорт",Viasat Sport
 http://109.239.208.82:80/viasatshd/index.m3u8
 #EXTINF:-1 group-title="Спорт",Старт HD
-http://live03-cdn.tv.ti.ru/dtv/id1303_NBN_SG--StartHD_wflite/04/plst.m3u8
+https://stream-msk-02.ott.tricolor.tv/dtv/id628_MSKSG-PVR-1--Channel_LIVE1/03/plst.m3u8
 #EXTINF:-1 group-title="Кино",Русский Детектив
-http://182.73.122.74:10005/bysid/416
+http://51.195.44.53:8081/tv/rus-detektiv/playlist.m3u8
 #EXTINF:-1 ,Еда
 http://195.144.197.170:8886/udp/237.0.1.156:10000
 #EXTINF:-1 ,История
@@ -185,8 +179,6 @@ http://cdn10.live-tv.od.ua:8081/leonovtv/1080i/playlist.m3u8
 http://cdnmg.secure.live.rtr-vesti.ru/live/smil:rtrp.smil/chunklist_b1600000.m3u8
 #EXTINF:-1 ,РТР Планета
 http://cdnmg.secure.live.rtr-vesti.ru/live/smil:rtrp.smil/chunklist_b800000.m3u8
-#EXTINF:-1 ,E Спорт 3
-http://directes-tv-int.ccma.cat/int/ngrp:es3_web/chunklist_b1296000.m3u8
 #EXTINF:-1 ,Евроновости
 http://evronovosti.mediacdn.ru/sr1/evronovosti/playlist.m3u8
 #EXTINF:-1 ,Известия
